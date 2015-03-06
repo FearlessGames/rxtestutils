@@ -1,0 +1,16 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+
+group 'se.fearless'
+version '0.1'
+
+
+repositories {
+	jcenter()
+}
+
+dependencies {
+	compile 'io.reactivex:rxnetty:0.4.6'
+	compile 'com.googlecode.gentyref:gentyref:1.1.0'
+	compile 'se.mockachino:mockachino:0.6.1'
+}
